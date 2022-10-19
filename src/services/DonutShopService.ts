@@ -1,4 +1,6 @@
 import axios from "axios";
+import DonutListResponse from "../models/DonutListResponse";
+import DonutNameResponse from "../models/DonutNameResponse";
 
 export const getDonutNameList = (): Promise<DonutListResponse> => {
   return axios
